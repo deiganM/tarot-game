@@ -13,6 +13,12 @@ font-family: 'Maitree', serif; */
 body {
   background-color: #FAF6F8;
   color: #04140F;
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  display: inline-block;
 }
 
 h1,
@@ -25,7 +31,6 @@ h4 {
 
 h1 {
   color: #886F68;
-  margin-bottom: 5rem;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -34,7 +39,6 @@ h1 > span {
 }
 
 h2 {
-  margin-bottom: 4rem;
   font-weight: 700;
 }
 
@@ -50,9 +54,17 @@ p {
 Utilities 
 *********/
 
+.title {
+text-align: center;
+}
+
+#image {
+  height: 50vh;
+  margin: 2rem;
+}
+
 .wrapper {
-  width: 100vw;
-  height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,6 +74,15 @@ Utilities
   padding: 2rem;
   }
   
+  .container {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
   /* .wrapper > * {
     width: 100%;
   } */
@@ -87,9 +108,21 @@ Buttons
   transform: translateY(-1px);
   /* transition: transform 150ms; */
 }
-/* Maybe delete this */
+
 .btn[disabled]:hover {
   cursor: not-allowed;
   box-shadow: none;
   transform: none;
 }
+
+/********
+Media Queries
+*********/
+
+@media screen and (max-width: 710px) {
+  .controls {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
