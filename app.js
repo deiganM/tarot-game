@@ -21,25 +21,18 @@ fetch('./tarotCards.json')
     // Work with JSON data here
     pullCard.addEventListener('click', e => {
 
+      // for testing the last card
+      // const currentCard = data.length - 1;
+
       // Random card generator
-      const currentCard = data.length - 1;
+      const currentCard = getRandomInt(data.length);
       // Card title
       tarotTitle.innerHTML = data[`${currentCard}`].cardName;
       // Card image
       image.src = data[`${currentCard}`].image;
       // Card Description
       tarotMeaning.innerHTML = data[`${currentCard}`].description;
-
-      // // Random card generator
-      // const currentCard = getRandomInt(data.length);
-      // // Card title
-      // tarotTitle.innerHTML = data[`${currentCard}`].cardName;
-      // // Card image
-      // image.src = data[`${currentCard}`].image;
-      // // Card Description
-      // tarotMeaning.innerHTML = data[`${currentCard}`].description;
     });
-
 
   })
   .catch(err => {
