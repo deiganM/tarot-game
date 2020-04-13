@@ -14,16 +14,12 @@ function getRandomInt(max) {
 
 const tarotCards = [];
 
-// Replace ./data.json with your JSON feed
 fetch('./tarotCards.json')
   .then(response => {
     return response.json()
   })
   .then(data => {
     // Work with JSON data here
-    // const currentCard = getRandomInt(3);
-    // console.log(data[`${currentCard}`].cardName)
-
     pullCard.addEventListener('click', e => {
       const currentCard = getRandomInt(3);
       // Card title
@@ -40,43 +36,6 @@ fetch('./tarotCards.json')
     title.innerHTML = "Your charas must be unaligned! Something is amiss, please refresh the page.";
     container.style.display = "none";
     controls.style.display = "none";
-    // image.style.display = "none";
-    // tarotMeaning.style.display = "none";
-    // pullCard.style.display = "none";
     console.error(err);
   })
-
-// fetch('tarotCards.json')
-//   .then((response) => {
-//     return response.json();
-//   })
-//   .catch(err => {
-//     question.innerHTML = "Your charas must be unaligned! Something is amiss, please refresh the page.";
-//     console.error(err);
-//   });
-
-// // random planet function, writes to page
-// const playerPlanet = () => {
-//   const planet = `https://swapi.co/api/planets/${randoNum(61, 1)}`
-//   fetch(planet)
-//     .then(x => x.json())
-//     .then(data => {
-//       const myPlanet = document.querySelector('#planet')
-//       myPlanet.innerHTML = data.name
-//       if (data.name === undefined) {
-//         myPlanet.innerHTML = "Oops. Something went wrong. Please Reload."
-//       }
-//     })
-// }
-
-
-// pullCard.addEventListener('click', e => {
-//   const currentCard = getRandomInt(3);
-//   // Card title
-//   tarotTitle.innerHTML = tarotCards[`${currentCard}`].cardName;
-//   // Card image
-//   image.src = tarotCards[`${currentCard}`].image;
-//   // Card Description
-//   tarotMeaning.innerHTML = tarotCards[`${currentCard}`].description;
-// });
 
