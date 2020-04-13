@@ -11,7 +11,6 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
-
 const tarotCards = [];
 
 fetch('./tarotCards.json')
@@ -21,16 +20,27 @@ fetch('./tarotCards.json')
   .then(data => {
     // Work with JSON data here
     pullCard.addEventListener('click', e => {
-      const currentCard = getRandomInt(3);
+
+      // Random card generator
+      const currentCard = data.length - 1;
       // Card title
       tarotTitle.innerHTML = data[`${currentCard}`].cardName;
       // Card image
       image.src = data[`${currentCard}`].image;
       // Card Description
       tarotMeaning.innerHTML = data[`${currentCard}`].description;
+
+      // // Random card generator
+      // const currentCard = getRandomInt(data.length);
+      // // Card title
+      // tarotTitle.innerHTML = data[`${currentCard}`].cardName;
+      // // Card image
+      // image.src = data[`${currentCard}`].image;
+      // // Card Description
+      // tarotMeaning.innerHTML = data[`${currentCard}`].description;
     });
 
-    console.log(data)
+
   })
   .catch(err => {
     title.innerHTML = "Your charas must be unaligned! Something is amiss, please refresh the page.";
@@ -38,4 +48,5 @@ fetch('./tarotCards.json')
     controls.style.display = "none";
     console.error(err);
   })
+
 
