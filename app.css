@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree&family=Montserrat&family=Rufina&display=swap');
+
+/* font-family: 'Rufina', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Maitree', serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FAF6F8;
+  color: #04140F;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+  font-family: 'Maitree', serif;
+}
+
+h1 {
+  color: #886F68;
+  margin-bottom: 5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 > span {
+  font-weight: 500;
+}
+
+h2 {
+  margin-bottom: 4rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+p {
+  font-family: 'Rufina', serif;
+}
+
+/********
+Utilities 
+*********/
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
+  }
+  
+  /* .wrapper > * {
+    width: 100%;
+  } */
+/********
+Buttons 
+*********/
+
+.btn {
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: solid #886F68 5px;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #886F68;
+  background-color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 #886F68;
+  transform: translateY(-1px);
+  /* transition: transform 150ms; */
+}
+/* Maybe delete this */
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
