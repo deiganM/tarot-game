@@ -1,0 +1,17 @@
+[
+  {
+    "cardName": "High Priestess",
+    "image": "./img/highPriestess.jpg",
+    "description": "The High Priestess advises you to adhere to your chosen spiritual practice on a more regular basis. If you want the benefits of evolution, you'll have to cooperate with spirit. We all have distractions, demands -- a whole life full of reasons why we cannot find the time to retreat into our inner sanctum.<br/><br/>Until you consider this as vital to your well- being as the need to eat and sleep, you are likely to be eternally restless and deeply dissatisfied.A spiritual routine that suits your temperament, practiced every day, is the most trustworthy path to freedom."
+  },
+  {
+    "cardName": "the Magician",
+    "image": "./img/theMagician.jpg",
+    "description": "Have faith in your innate creativity. The Magician advises you give your questioning nature and free-associating mind plenty of room to explore the subject at hand. Behave just as if you were an open-minded and curious scientist. Through this process, you may bring freshness and clarity into the situation that is both stimulating and catalytic. <br/><br/> You do not have to understand it all intellectually. Besides, intuition is your ace in the hole. Respond in a spontaneous manner to what is right in front of you. There is no reason to hold yourself back. Your natural urges are exactly what is needed, and, your ingenuous timing and elegant style will help smooth over any awkwardness."
+  },
+  {
+    "cardName": "The Empress",
+    "image": "./img/theEmpress.jpg",
+    "description": "The Empress advises you to trust in the good sense you have shown up to this point. Recognize your good intentions in carrying out your responsibilities as a compassionate human. You are capable of demonstrating the finest aspects of your personality.<br/> <br/>Demonstrate this through caring actions, a forgiving and generous attitude, and wise understanding of others' needs and struggles. Bring a healing influence to the current situation and take full credit for the supportive part you play."
+  }
+]
