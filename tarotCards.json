@@ -185,8 +185,78 @@
     "description": "The Ace of Wands in this position encourages energetic movement toward activity. Brace yourself and get ready to spring into action. You may need to make your move soon, so make sure you are fully prepared. Trust your instincts and spontaneity. When the opportunity comes, you may want to seize it without hesitation.<br/><br/>So quicken your senses and raise your antenna. There's excitement in the air, and supports your immediate ambitions."
   },
   {
-    "cardName": "Ace of Wands",
-    "image": "./img/aceOfWands.jpg",
-    "description": "The Ace of Wands in this position encourages energetic movement toward activity. Brace yourself and get ready to spring into action. You may need to make your move soon, so make sure you are fully prepared. Trust your instincts and spontaneity. When the opportunity comes, you may want to seize it without hesitation.<br/><br/>So quicken your senses and raise your antenna. There's excitement in the air, and supports your immediate ambitions."
+    "cardName": "King of Cups",
+    "image": "./img/kingOfCups.jpg",
+    "description": "The King of Cups in this position advises that you closely examine your conscience and bring your personal mission into alignment with what is best for everyone. You can then step into your community or situation with integrity and an ability to communicate the highest wisdom.<br/><br/>As this sweetens the environment, others will be inspired to raise their own motives and intentions to match yours. You will be providing an important kind of leadership that uses strong reassurance to help everyone work together. The most persuasive thing about you is the example of generous behavior that you exhibit -- much more powerful than preaching alone."
+  },
+  {
+    "cardName": "Queen of Cups",
+    "image": "./img/queenOfCups.jpg",
+    "description": "The Queen of Cups in this position encourages you to be generous, kind and forgiving. Support the ability of others to get what they want. Nevertheless, remember as with anyone in a caretaking position, you have a fine line to walk. You do not want your loved ones or teammates to become complacent or dependent, as if they can take your support for granted with little or no consideration for your needs.<br/><br/>Cultivate an awareness of love as freely giving and receiving. In the process, help clarify the important difference between receiving energy and taking it. Do not allow your willingness to give be misunderstood or abused, as if it were a weakness."
+  },
+  {
+    "cardName": "Knight of Cups",
+    "image": "./img/knightOfCups.jpg",
+    "description": "The Knight of Cups (in some decks, a Prince) in this position advises that you jump into your new situation with both feet. Get involved with what is happening in the present. Think no more about the route you had to travel to get back here. There is no need to be cavalier about what seems familiar.<br/><br/>Look deeply at the underlying values here. You may find that they represent something you mistakenly rejected in the past. Be humble enough to look at things through new eyes. At a deep level, your heart and soul are being nourished. Don't be tempted to run away again -- this is where you belong. Your entire journey was designed to bring you home with new appreciation."
+  },
+  {
+    "cardName": "Page of Cups",
+    "image": "./img/pageOfCups.jpg",
+    "description": "The Page of Cups (in some decks, a Princess) in this position advises you to study the best ways to be of service. Strive to discern what would give more pleasure, comfort and emotional security. Then, provide it. Understand that what is happening has little or nothing to do with you personally. The best you can do is to offer support and listen closely.<br/><br/>Make sure you understand what is needed and serve the situation with loyalty. Look at individuals around you as the embodiment of the Divine, and try to fulfill each one's needs. Be unconcerned with the outcome. Later you will understand why you needed to be in this position."
+  },
+  {
+    "cardName": "Ten of Cups",
+    "image": "./img/tenOfCups.jpg",
+    "description": "With the Ten of Cups in this position, prioritize teamwork over your personal goals. Everyone needs to feel they made a contribution. The crew needs to feel they are all in this together, and everyone needs to be rewarded when the ship comes in.<br/><br/>It's essential to follow a teamwork approach in order to maximize the benefits for yourself. The good will that will emerge from such an approach will last long after the project is over. You will be generously rewarded later if you take a selfless approach at this time."
+  },
+  {
+    "cardName": "Nine of Cups",
+    "image": "./img/nineOfCups.jpg",
+    "description": "The Nine of Cups in this position advises that you open yourself to circumstances around you. There may be no need to manage a situation that does not require a lot of control or leadership. The tone of the moment is heartfelt and bonded. It is nurturing. Open up and choose to be receptive. Proceed from your heart, relying on your intuition. This is your truest source of information right now.<br/><br/>Allow yourself to be attracted to what feels supportive. Avoid what feels harsh, critical and judgmental. If this requires that you change your style, so be it. The results of being intuitive are generally far superior to the results of being emotionally guarded and overly rational."
+  },
+  {
+    "cardName": "Eight of Cups",
+    "image": "./img/eightOfCups.jpg",
+    "description": "With the Eight of Cups in this position, look inside and recognize the part of you that still nurses an old grudge from a past injury or trauma. For the most part, your forward-looking self has gotten up and moved along. You are getting on with your life. There may still a part of you, however, that holds out and resists the healing. Are you nursing old wounds from painful losses of faith and trust? If so, now may be a good time to scrutinize your current motives.<br/><br/>See if you are still being influenced by the part of yourself that cuts short your enthusiastic, optimistic impulses. Do not deny this pessimistic tendency. Failing to recognize the truth only causes repression that flares up in another part of our psyche. Instead, seek to understand and accept the hesitation and the fear you may feel, and come to terms with them. Then you can put some old emotions in their rightful place--out of the way."
+  },
+  {
+    "cardName": "Seven of Cups",
+    "image": "./img/sevenOfCups.jpg",
+    "description": "The Seven of Cups in this position advises that you relax your mind and open to the dreams and imaginings your inner child loves to entertain. Allow yourself to imagine a truly positive outcome for this situation. Perform an exercise in creative visualization by relaxing your guard and letting go of your fears.<br/><br/>As the dreamscape unfolds, your electro-magnetic chemistry is stimulated to a point of achieving greater confidence in yourself and in what you are doing. Even if it's only a temporary break from your fears, this is a helpful exercise because it gives your psyche and body a dose of unlimited thinking and optimism. Think positively -- the results could truly be amazing."
+  },
+  {
+    "cardName": "Six of Cups",
+    "image": "./img/sixOfCups.jpg",
+    "description": "When the Six of Cups is in this position, take a look at what is repetitive or cyclical in your life; what links the present situation to the last such experience. A new beginning requires new energy and concentration. Until you analyze the past, you will continue to drift with its current.<br/><br/>Distill everything that is worthwhile from your memories and get as much value from it as you can. Then use this as motivation for change. Make the very best use of hindsight, employing new strategies and trying new angles on these recurring issues."
+  },
+  {
+    "cardName": "Five of Cups",
+    "image": "./img/fiveOfCups.jpg",
+    "description": "The Five of Cups in this position advises you to tighten your belt, make do with less and show more appreciation for the things you do have. If something is truly yours, it cannot be lost. When you are experiencing feelings of loss, it may be because of an inappropriate emotional attachment. If you promise things that you cannot deliver, then you might be setting yourself up for disappointment to follow. In overestimating our abilities, we are forced to face our limits.<br/><br/>Be grateful that as the cups fell, you lost only three of the five. Two are still intact, pristine and full of sacred energy. Do not cling to the setback. Focus on the potential."
+  },
+  {
+    "cardName": "Four of Cups",
+    "image": "./img/fourOfCups.jpg",
+    "description": "The Four of Cups in this position wants you to take a clear look at how stalled or distracted you have become. You may have been bogged down by negativity, hopelessness or a sense of limitation. It is not to your advantage, however, to see the world through such a narrow lens. Cut through some of the forces that undermine you, causing you to feel incapable. Sometimes you have to define what you are 'for' by defining what you are 'against.' Decide that you are not as heavy as the cup of earth, not placid as is the cup of water, not turbulent as is the cup of air. Rather, now may be the time to be as aroused as is the cup of fire. This arousal may constitute liberation from the circumstances that may have brought you here."
+  },
+  {
+    "cardName": "Three of Cups",
+    "image": "./img/threeOfCups.jpg",
+    "description": "The Three of Cups in this position advises that you tune in with your family and fully inform them about what's going on with you. Let them add substance to your ideas with their talent and imagination. Think of this occasion as a celebration, where their support helps you find success in your work. There may be something here for everyone to contribute. Put yourself in the loving hands of your family connections and your trust will be well rewarded. The synergy between you could enhance each individual's talent and creativity. You will love the results!"
+  },
+  {
+    "cardName": "Two of Cups",
+    "image": "./img/twoOfCups.jpg",
+    "description": "The Two of Cups in this position advises you to speak your heart. It may be likely that the person you are trying to connect with feels the same. Still the other needs to hear this more fully. So why not make it clear and why not now?<br/><br/>The Two of Cups is the image of the heart making a vow. This card advises that you pledge yourself to this friendship and put your heart on the line. You have nothing to lose and everything to gain. Life is a relationship game. It's a great privilege to share with others who are so complementary and compatible."
+  },
+  {
+    "cardName": "Ace of Cups",
+    "image": "./img/aceOfCups.jpg",
+    "description": "The Ace of Cups in this position advises you to challenge yourself and discover what is good about every relationship. Practice looking at the world through the eyes of the Divine. Allow your imagination to perceive the spiritual or evolutionary potential in every person and experience.<br/><br/>Look with the eye of a loving parent or companion upon the people and things you come into contact with. Make a conscious decision to approve of and delight in even the quirky developments that make the world turn. No one can be perfect at such unconditional acceptance. Still the practice will sweeten your day to day life. Your magnetism will increase and more loving people may enter your life. The whole world will benefit as this becomes second nature to you."
+  },
+  {
+    "cardName": "Ace of Cups",
+    "image": "./img/aceOfCups.jpg",
+    "description": "The Ace of Cups in this position advises you to challenge yourself and discover what is good about every relationship. Practice looking at the world through the eyes of the Divine. Allow your imagination to perceive the spiritual or evolutionary potential in every person and experience.<br/><br/>Look with the eye of a loving parent or companion upon the people and things you come into contact with. Make a conscious decision to approve of and delight in even the quirky developments that make the world turn. No one can be perfect at such unconditional acceptance. Still the practice will sweeten your day to day life. Your magnetism will increase and more loving people may enter your life. The whole world will benefit as this becomes second nature to you."
   }
 ]
