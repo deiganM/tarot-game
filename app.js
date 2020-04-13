@@ -31,7 +31,7 @@ pullCard.addEventListener('click', e => {
   // Card title
   tarotTitle.innerHTML = tarotCards[`${currentCard}`].cardName;
   // Card image
-  image.innerHTML = tarotCards[`${currentCard}`].image;
+  image.src = tarotCards[`${currentCard}`].image;
   // Card Description
   tarotMeaning.innerHTML = tarotCards[`${currentCard}`].description;
 });
