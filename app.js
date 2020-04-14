@@ -6,11 +6,12 @@ const title = document.querySelector(".title");
 const container = document.querySelector(".container");
 const controls = document.querySelector(".controls");
 
-// random number function
+// Random number function
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
+// Data coming from tarotCards.json
 const tarotCards = [];
 
 fetch('./tarotCards.json')
@@ -19,9 +20,10 @@ fetch('./tarotCards.json')
   })
   .then(data => {
     // Work with JSON data here
+    //Pull Card Button
     pullCard.addEventListener('click', e => {
 
-      // for testing the last card
+      // for testing the last card (this keeps pulling the data of the last card)
       // const currentCard = data.length - 1;
 
       // Random card generator
@@ -41,5 +43,4 @@ fetch('./tarotCards.json')
     controls.style.display = "none";
     console.error(err);
   })
-
 
